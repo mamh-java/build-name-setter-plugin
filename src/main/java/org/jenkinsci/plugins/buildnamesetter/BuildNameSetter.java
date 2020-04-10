@@ -131,7 +131,7 @@ public class BuildNameSetter extends BuildWrapper implements MatrixAggregatable 
 
         @Override
         public String getDisplayName() {
-            return "Set Build Name";
+            return "Set Build Name and Description";
         }
     }
 }

@@ -4,11 +4,12 @@
         <f:textbox default="#$${BUILD_NUMBER}"/>
     </f:entry>
 
-    <f:advanced>
-        <f:entry title="${%Build Description}" field="descriptionTemplate">
-            <f:textbox/>
-        </f:entry>
 
+    <f:entry title="${%Build Description}" field="descriptionTemplate">
+        <f:textbox/>
+    </f:entry>
+
+   <f:advanced>
         <f:entry title="${%Set build name before build starts}">
             <f:checkbox field="runAtStart" default="true"/>
         </f:entry>

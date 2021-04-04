@@ -12,10 +12,11 @@
     <packaging>hpi</packaging>
     <name>Build Name and Description Setter</name>
     <description>Changes default build name and description.</description>
-    <url>https://github.com/jenkinsci/build-name-setter-plugin</url>
+    <url>https://github.com/mamh-java/build-name-setter-plugin</url>
 
     <properties>
-        <jenkins.version>2.121.3</jenkins.version>
+        <jenkins.version>2.249.3</jenkins.version>
+        <slf4jVersion>1.7.26</slf4jVersion>
         <java.level>8</java.level>
     </properties>
 
@@ -59,9 +60,9 @@
     </dependencies>
 
     <scm>
-        <connection>scm:git:git://github.com/jenkinsci/build-name-setter-plugin.git</connection>
-        <developerConnection>scm:git:git@github.com:jenkinsci/build-name-setter-plugin.git</developerConnection>
-        <url>https://github.com/jenkinsci/build-name-setter-plugin</url>
+        <connection>scm:git:https://github.com/mamh-java/build-name-setter-plugin.git</connection>
+        <developerConnection>scm:git:https://github.com/mamh-java/build-name-setter-plugin.git</developerConnection>
+        <url>https://github.com/mamh-java/build-name-setter-plugin</url>
       <tag>HEAD</tag>
   </scm>
 
